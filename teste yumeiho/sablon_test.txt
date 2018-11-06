@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form id="test1">
+		<ol>
+			<li>cerinta<br>
+			   <input name="q1" type="radio" value="1.1">raspuns<br>	
+			   <input name="q1" type="radio" value="1.2"><br>
+			   <input name="q1" type="radio" value="1.3"><br>	
+			   <input name="q1" type="radio" value="1.4"><br>		
+			</li><br>
+			<li><br>
+				<input name="q2" type="radio" value="2.1"><br>
+				<input name="q2" type="radio" value="2.2"><br>
+				<input name="q2" type="radio" value="2.3"><br>
+				<input name="q2" type="radio" value="2.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q3" type="radio" value="3.1"><br>
+				<input name="q3" type="radio" value="3.2"><br>
+				<input name="q3" type="radio" value="3.3"><br>
+				<input name="q3" type="radio" value="3.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q4" type="radio" value="4.1"><br>
+				<input name="q4" type="radio" value="4.2"><br>
+				<input name="q4" type="radio" value="4.3"><br>
+				<input name="q4" type="radio" value="4.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q5" type="radio" value="5.1"><br>
+				<input name="q5" type="radio" value="5.2"><br>
+				<input name="q3" type="radio" value="5.3"><br>
+				<input name="q3" type="radio" value="5.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q6" type="radio" value="6.1"><br>
+				<input name="q6" type="radio" value="6.2"><br>
+				<input name="q6" type="radio" value="6.3"><br>
+				<input name="q6" type="radio" value="6.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q7" type="radio" value="7.1"><br>
+				<input name="q7" type="radio" value="7.2"><br>
+				<input name="q7" type="radio" value="7.3"><br>
+				<input name="q7" type="radio" value="7.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q8" type="radio" value="8.1"><br>
+				<input name="q8" type="radio" value="8.2"><br>
+				<input name="q8" type="radio" value="8.3"><br>
+				<input name="q8" type="radio" value="8.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q9" type="radio" value="9.1"><br>
+				<input name="q9" type="radio" value="9.2"><br>
+				<input name="q9" type="radio" value="9.3"><br>
+				<input name="q9" type="radio" value="9.4"><br>
+			</li><br>
+			<li><br>
+				<input name="q10" type="radio" value="10.1"><br>
+				<input name="q10" type="radio" value="10.2"><br>
+				<input name="q10" type="radio" value="10.3"><br>
+				<input name="q10" type="radio" value="10.4"><br>
+			</li><br>
+		</ol>
+		<input onclick="gradeTest()" name="submit" type="button" value="Submit" />
+	</form>
+	<script>
+	function gradeTest() {
+		var totalQuestions = 10;
+		var correctAnswers = 0;
+		var alertText;
+		var i;
+		
+		var a1 = document.getElementsByName('q1');
+		for(i = 0; i < a1.length; i++) {
+			if(a1[i].checked) {
+				if(a1[i].value == '1.ce e corect') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a2 = document.getElementsByName('q2');
+		for(i = 0; i < a2.length; i++) {
+			if(a2[i].checked) {
+				if(a2[i].value == '2.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a3 = document.getElementsByName('q3');
+		for(i = 0; i < a3.length; i++) {
+			if(a3[i].checked) {
+				if(a3[i].value == '3.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a4 = document.getElementsByName('q4');
+		for(i = 0; i < a4.length; i++) {
+			if(a4[i].checked) {
+				if(a4[i].value == '4.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a5 = document.getElementsByName('q5');
+		for(i = 0; i < a5.length; i++) {
+			if(a5[i].checked) {
+				if(a5[i].value == '5.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a6 = document.getElementsByName('q6');
+		for(i = 0; i < a6.length; i++) {
+			if(a6[i].checked) {
+				if(a6[i].value == '6.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a7 = document.getElementsByName('q7');
+		for(i = 0; i < a7.length; i++) {
+			if(a7[i].checked) {
+				if(a7[i].value == '7.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a8 = document.getElementsByName('q8');
+		for(i = 0; i < a8.length; i++) {
+			if(a8[i].checked) {
+				if(a8[i].value == '8.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a9 = document.getElementsByName('q9');
+		for(i = 0; i < a9.length; i++) {
+			if(a9[i].checked) {
+				if(a9[i].value == '9.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		var a10 = document.getElementsByName('q10');
+		for(i = 0; i < a10.length; i++) {
+			if(a10[i].checked) {
+				if(a10[i].value == '10.') {
+				correctAnswers++;
+				break;
+				}
+			}	
+		}
+		
+		if(correctAnswers == totalQuestions) {
+			alertText = "Congratulations! You got all the questions right!";
+		}else {
+			alertText = "You got " + correctAnswers + " out of " + totalQuestions + " correct!";
+		}
+		alert(alertText);
+	}		
+	</script>
+</body>
+</html>

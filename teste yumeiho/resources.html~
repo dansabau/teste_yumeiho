@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dan Sabău" >
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Yumeiho Koushi </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Yumeiho Koushi 考査</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="quiz.html">Yumeiho Koushi </a></li>
+            <li><a href="resources.html">Resurse</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<!-- +++++ Posts Lists +++++ -->
+	<!-- +++++ First Post +++++ -->
+	<div id="grey">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					
+					<p><bd>January 10, 2017</bd></p>
+					<p><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt=""></p>
+					<h4>The GNU C Reference Manual</h4>
+					<p><b>The GNU C Reference Manual</b> is a reference for the C programming language, as implemented by the GNU C Compiler.
+							This manual is strictly a reference, not a tutorial. Its aim is to cover every linguistic construct in GNU C, but not the library functions (which are documented elsewhere). This manual would probably not make a good introductory book for new programmers, although those who know languages other than C should be able to learn C using it.</p>
+					<p><a href="gnu-c-manual.pdf">Continue Reading...</a></p>
+				</div>
+
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /grey -->
+	
+	<!-- +++++ Second Post +++++ -->
+	<div id="white">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					
+					<p><bd>January 5, 2017</bd></p>
+					<p><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt=""></p>
+					<h4>Java Application Development on Linux</h4>
+					<p>If you are an experienced Java programmer, but quite new to Linux, and you have been looking for information on the tools available to develop and deploy
+						Java applications on Linux systems, this book will provide a lot of useful information.If you are an experienced Linux user or developer, and you are interested
+						in using the Java language on that platform, this book will guide you through some advanced Java development topics and will present, we hope, some novel
+						uses for familiar Linux and GNU tools</p>
+					<p><a href="javalinux.pdf">Continue Reading...</a></p>
+				</div>
+
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /white -->
+	
+	<!-- +++++ Third Post +++++ -->
+	<div id="grey">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					
+					<p><bd>January 4, 2017</bd></p>
+					<p><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt=""></p>
+					<h4>Hands-On Python</h4>
+					<p>You have probably used computers to do all sorts of useful and interesting things. In each application, the computer responds in different ways to your input, from the keyboard, mouse or a file. Still the underlying
+operations are determined by the design of the program you are given. In this set of tutorials you will learn to write your own computer programs, so you can give the computer instructions to react in the way you
+want.</p>
+					<p><a href="python3.pdf">Continue Reading...</a></p>
+				</div>
+
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /grey -->
+	
+
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>Un proiect Kalokagathia</h4>
+					<p>
+						Cabinetul Kalokagathia <br/>
+						Hotel Timișoara, sala Haga <br>
+						str. Mărășești 1-3<br>
+						Timișoara, Timiș, Romania.<br>
+						Programări prin SMS și WhatsApp<br>
+						+40745265044, <br/>
+						sau prin <a href="mailto:appointments@kalokagathia.ro">e-mail</a><br/>
+						
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>Link-uri importante</h4>
+					<p>					
+						<a href="http://sry.ro/">Societatea Română de Yumeiho</a>
+						<a href="https://kalokagathia.ro">Kalokagathia</a><br/>
+						<a href="https://www.tumblr.com/blog/yumeiho-kalokagathia">Tumblr</a><br/>
+						<a href="https://www.facebook.com/yumeihokatim">Facebook</a>
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>Despre Yumeiho Koushi </h4>
+					<p>Un mod realist de a testa cunoștințele teoretice necesare practicării Yumeiho.</p>
+				</div><!-- /col-lg-4 -->
+			
+			</div>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dan Sabău" >
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Yumeiho Koushi </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+
+<div class="container">
+    <!-- This checkbox will give us the toggle behavior, it will be hidden, but functional -->
+    <input id="toggle" type="checkbox">
+
+    <!-- IMPORTANT: Any element that we want to modify when the checkbox state changes go here, being "sibling" of the checkbox element -->
+
+    <!-- This label is tied to the checkbox, and it will contain the toggle "buttons" -->
+    <label class="toggle-container" for="toggle">
+        <!-- If menu is open, it will be the "X" icon, otherwise just a clickable area behind the hamburger menu icon -->
+        <span class="button button-toggle"></span>
+    </label>
+
+    <!-- The nav menu -->
+    <nav class="nav">
+        <a class="nav-item" href="">Dashboard</a>
+        <a class="nav-item" href="">History</a>
+        <a class="nav-item" href="">Statistics</a>
+        <a class="nav-item" href="">Settings</a>
+    </nav>
+</div>
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Yumeiho Koushi 考査</a>
+        </div>
+      
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="quiz.html">Teste </a></li>
+            <li><a href="resources.html">Resurse</a></li>
+            <li><a href="https://kalokagathia.ro">Kalokagathia</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- +++++ Welcome Section +++++ -->
+	<div id="ww">
+	    <div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 centered">
+					<a href="https://kalokagathia.ro"><img src="assets/img/user.png" alt="Yumeiho Koushi"></a>
+					<h1>Bine ați venit!</h1>
+					<p><a href="https://tangorin.com/words?search=%E8%80%83%E8%A9%A6" style="color:green;">Koushi 考査 </a> înseamnă testare care ilustrează, opinia, felul de a gândi dar și cunoștințele.  </p>
+					<p>De vreme ce ne-am întîlnit aici înseamnă că avem în comun dorința de a testa temeinicia achizițiilor teoretice necesare practicării Yumeiho.</p>
+					<p>Cînd doriți să începeți testul dați click pe meniul din dreapta sus, inscripționat <a href="quiz.html" style="color:green;">TESTE</a></p>
+					<p>Oricând doriți să revizitați această pagină, urmați calea deschisă de meniul din sânga sus, cel cu litere japoneze<br>
+					adică <a href="index.html" style="color:green; ">Yumeiho Koushi 考査</a> </p>
+					<p>Pentru a vizita site-ul <a href="https://kalokagathia.ro>" style="color:green;">Kalokagathia</a> urmați meniul corespunzător din dreapta sus.</p>
+					<p> Succes la teste!</p>
+				
+				</div><!-- /col-lg-8 -->
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /ww -->
+	
+	
+	
+	
+	
+	<!-- +++++ Footer Section +++++ -->
+	
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<h4>Un proiect Kalokagathia</h4>
+					<p>
+						Cabinetul Kalokagathia <br/>
+						Hotel Timișoara, sala Haga <br>
+						str. Mărășești 1-3<br>
+						Timișoara, Timiș, Romania.<br>
+						Programări prin SMS și WhatsApp<br>
+						+40745265044, <br/>
+						sau prin <a href="mailto:appointments@kalokagathia.ro">e-mail</a><br/>
+						
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>Link-uri importante</h4>
+					<p>					
+						<a href="http://sry.ro/">Societatea Română de Yumeiho</a>
+						<a href="https://kalokagathia.ro">Kalokagathia</a><br/>
+						<a href="https://www.tumblr.com/blog/yumeiho-kalokagathia">Tumblr</a><br/>
+						<a href="https://www.facebook.com/yumeihokatim">Facebook</a>
+					</p>
+				</div><!-- /col-lg-4 -->
+				
+				<div class="col-lg-4">
+					<h4>Despre Yumeiho Koushi </h4>
+					<p>Un mod realist de a testa cunoștințele teoretice necesare practicării Yumeiho.</p>
+				</div><!-- /col-lg-4 -->
+			
+			</div>
+		
+		</div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
